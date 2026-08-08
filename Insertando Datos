@@ -1,0 +1,457 @@
+--insertando datos
+--simples
+--Tipo de documento 
+insert into tipodocumento(codtipd,nomtipd,esttipd)values(seq_tipodocumento.NEXTVAL,'DNI',1);
+insert into tipodocumento(codtipd,nomtipd,esttipd)values(seq_tipodocumento.NEXTVAL,'Pasaporte',1);
+insert into tipodocumento(codtipd,nomtipd,esttipd)values(seq_tipodocumento.NEXTVAL,'Carnet de Extranjeria',1);
+insert into tipodocumento(codtipd,nomtipd,esttipd)values(seq_tipodocumento.NEXTVAL,'RUC',1);
+
+--Distrito
+-- Insertar registros en Distrito
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Ancon', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Ate', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Barranco', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Brena', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Carabayllo', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Chaclacayo', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Chorrillos', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Cieneguilla', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Comas', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'El Agustino', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Independencia', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Jesus Maria', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'La Molina', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'La Victoria', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Lima', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Lince', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Los Olivos', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Lurigancho', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Lur�n', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Magdalena del Mar', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Miraflores', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Pachacamac', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Pucusana', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Pueblo Libre', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Puente Piedra', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Punta Hermosa', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Punta Negra', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Rimac', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'San Bartolo', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'San Borja', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'San Isidro', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'San Juan de Lurigancho', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'San Juan de Miraflores', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'San Luis', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'San Martin de Porres', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'San Miguel', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Santa Anita', 1);
+INSERT INTO Distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Santa Mar�a del Mar', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Santa Rosa', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Santiago de Surco', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Surquillo', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Villa El Salvador', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Villa Maria del Triunfo', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Callao', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Bellavista', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Carmen de La Legua', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'La Perla', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'La Punta', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Ventanilla', 1);
+INSERT INTO distrito (coddis, nomdis, estdis) 
+VALUES (seq_distrito.NEXTVAL, 'Mi Peru', 1);
+
+--sexo
+insert into sexo(codsex,nomsex,estsex)values(seq_sexo.NEXTVAL,'Masculino',1);
+insert into sexo(codsex,nomsex,estsex)values(seq_sexo.NEXTVAL,'Femenino',1);
+insert into sexo(codsex,nomsex,estsex)values(seq_sexo.NEXTVAL,'Otros',1);
+insert into sexo(codsex,nomsex,estsex)values(seq_sexo.NEXTVAL,'Prefiere no decir',1);
+
+--estado civil
+insert into estadocivil(codestc,nomestc,estestc)values(seq_estadocivil.NEXTVAL,'Soltero',1);
+insert into estadocivil(codestc,nomestc,estestc)values(seq_estadocivil.NEXTVAL,'Casado',1);
+insert into estadocivil(codestc,nomestc,estestc)values(seq_estadocivil.NEXTVAL,'Viudo',1);
+insert into estadocivil(codestc,nomestc,estestc)values(seq_estadocivil.NEXTVAL,'Divorciado',1);
+
+--grado instruccion
+insert into gradoinstruccion(codgradi, nomgradi,estgradi) values(seq_gradoinstruccion.nextval,'Tecnico Superior',1);
+insert into gradoinstruccion(codgradi, nomgradi,estgradi) values(seq_gradoinstruccion.nextval,'Bachiller',1);
+insert into gradoinstruccion(codgradi, nomgradi,estgradi) values(seq_gradoinstruccion.nextval,'Titulado',1);
+insert into gradoinstruccion(codgradi, nomgradi,estgradi) values(seq_gradoinstruccion.nextval,'Magister',1);
+insert into gradoinstruccion(codgradi, nomgradi,estgradi) values(seq_gradoinstruccion.nextval,'Doctor',1);
+
+-- nivel
+insert into nivel(codniv,nomniv,preniv,estniv) values(seq_nivel.nextval,'Inicial',450,1);
+insert into nivel(codniv,nomniv,preniv,estniv) values(seq_nivel.nextval,'Primaria',550,1);
+insert into nivel(codniv,nomniv,preniv,estniv) values(seq_nivel.nextval,'Secundaria',700,1);
+
+--turno
+insert into turno(codtur,nomtur,esttur) values(seq_turno.nextval,'Mañana',1);
+insert into turno(codtur,nomtur,esttur) values(seq_turno.nextval,'Tarde',1);
+
+--area
+insert into area(codarea,nomarea,estarea) values(seq_area.nextval,'Matematica',1);
+insert into area(codarea,nomarea,estarea) values(seq_area.nextval,'Ciencias Sociales',1);
+insert into area(codarea,nomarea,estarea) values(seq_area.nextval,'Comunicacion',1);
+insert into area(codarea,nomarea,estarea) values(seq_area.nextval,'Personal Social',1);
+insert into area(codarea,nomarea,estarea) values(seq_area.nextval,'Ciencia y Tecnologia',1);
+insert into area(codarea,nomarea,estarea) values(seq_area.nextval,'Psicomotricidad',1);
+insert into area(codarea,nomarea,estarea) values(seq_area.nextval,'Informatica',1);
+insert into area(codarea,nomarea,estarea) values(seq_area.nextval,'Ingles',1);
+insert into area(codarea,nomarea,estarea) values(seq_area.nextval,'Educacion Religiosa y valores',1);
+insert into area(codarea,nomarea,estarea) values(seq_area.nextval,'Arte y Cultura',1);
+
+-- cargo
+insert into cargo(codcar,nomcar,estcar) values(seq_cargo.nextval,'Administrador',1);
+insert into cargo(codcar,nomcar,estcar) values(seq_cargo.nextval,'Director',1);
+insert into cargo(codcar,nomcar,estcar) values(seq_cargo.nextval,'Cajero',1);
+insert into cargo(codcar,nomcar,estcar) values(seq_cargo.nextval,'Secretario',1);
+insert into cargo(codcar,nomcar,estcar) values(seq_cargo.nextval,'Auxiliar',1);
+insert into cargo(codcar,nomcar,estcar) values(seq_cargo.nextval,'Jefe de Almacen',1);
+
+--cruzadas
+-- grado
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Rojo',1,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Amarillo',1,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Azul',1,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Primer Grado',2,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Segundo Grado',2,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Tercer Grado',2,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Cuarto Grado',2,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Quinto Grado',2,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Sexto Grado',2,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Primer Grado',3,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Segundo Grado',3,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Tercer Grado',3,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Cuarto Grado',3,1);
+insert into grado(codgra,nomgra,codniv,estgra) values(seq_grado.nextval,'Quinto Grado',3,1);
+
+-- seccion
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',1,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',2,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',3,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'B',3,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',4,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'B',4,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'C',4,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',5,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'B',5,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'C',5,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',6,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'B',6,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'C',6,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',7,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'B',7,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',8,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'B',8,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',9,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'B',9,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',10,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'B',10,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'C',10,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',11,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'B',11,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'C',11,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',12,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'B',12,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'C',12,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',13,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'B',13,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'A',14,1);
+insert into seccion(codsec,nomsec,codgra,estsec) values(seq_seccion.nextval,'B',14,1);
+
+
+-- curso
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Aritmetica',1,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Algebra',1,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Geometria',1,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Trigonometria',1,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Razonamiento Matematico',1,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Historia del Peru',2,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Historia Universal',2,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Geografia',2,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Economia',2,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Desarrollo Personal',2,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Ciudadania Civica',2,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Lenguaje',3,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Literatura',3,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Razonamiento Verbal',3,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Plan Lector',3,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Psicologia',4,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Filosofia',4,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Educacion Civica',4,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Valores y Liderazgo',4,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Tutoria',4,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Fisica',5,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Quimica',5,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Biologia',5,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Educacion Fisica',6,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Deporte',6,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Computacion',7,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Ingles',8,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Religion',9,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Danza',10,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Musica',10,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Teatro',10,1);
+insert into curso(codcur,nomcur,codarea,estcur) values(seq_curso.nextval,'Oratoria',10,1);
+
+--apoderado
+insert into apoderado(codapo,nomapo,apepapo,apemapo,fecapo,codtipd,docapo,dirapo,coddis,telapo,celapo,corapo,codsex,codestc,estapo)
+values(seq_apoderado.NEXTVAL,'Jose Daniel','Osorio','Morales',to_date('1993-08-04','yyyy-MM-dd'),1,'41526352','Av.Las Flores de Canto Grande 1480',8,'2462119','963258741','josoriom@gmail.com',1,1,1);
+
+insert into apoderado(codapo,nomapo,apepapo,apemapo,fecapo,codtipd,docapo,dirapo,coddis,telapo,celapo,corapo,codsex,codestc,estapo)
+values(seq_apoderado.NEXTVAL,'Rodrigo Paolo','La Torre','Olarte',to_date('2008-03-08','yyyy-MM-dd'),1,'61333578','Calle 14-La Florida 390#A',1,'3869145','968744009','rodrigop.ltorreo@gmail.com',1,1,1);
+
+insert into apoderado(codapo,nomapo,apepapo,apemapo,fecapo,codtipd,docapo,dirapo,coddis,telapo,celapo,corapo,codsex,codestc,estapo)
+values(seq_apoderado.NEXTVAL,'Gianfranco Benjamin','Rojas','Cuti',to_date('2003-09-27','yyyy-MM-dd'),1,'39601592','Av.28 de julio 205',1,'7384689','913406871','benjamin.rojas@gmail.com',1,1,1);
+
+insert into apoderado(codapo,nomapo,apepapo,apemapo,fecapo,codtipd,docapo,dirapo,coddis,telapo,celapo,corapo,codsex,codestc,estapo)
+values(seq_apoderado.NEXTVAL,'Sebastian Eduardo','Caspino','Garcia',to_date('2001-06-15','yyyy-MM-dd'),2,'62883078','Av.Alfonso Ugarte 301',1,'7393057','963258741','sebasedu.garcia@gmail.com',1,1,1);
+
+insert into apoderado(codapo,nomapo,apepapo,apemapo,fecapo,codtipd,docapo,dirapo,coddis,telapo,celapo,corapo,codsex,codestc,estapo)
+values(seq_apoderado.NEXTVAL,'Carlos Daniel','La Torre','Morales',to_date('1984-07-04','yyyy-MM-dd'),1,'06183595','Av.Las Flores de Canto Grande 1480',8,'4859374','912305635','daniel.ltorreo@gmail.com',1,1,1);
+
+insert into apoderado(codapo,nomapo,apepapo,apemapo,fecapo,codtipd,docapo,dirapo,coddis,telapo,celapo,corapo,codsex,codestc,estapo)
+values(seq_apoderado.NEXTVAL,'María Elena','Flores','Córdova',to_date('1987-11-18','yyyy-MM-dd'),1,'63524189','Av. La Mar 245 - Pueblo Libre',9,'4625871','974125836','maria.flores@email.com',2,2,1);
+
+insert into apoderado(codapo,nomapo,apepapo,apemapo,fecapo,codtipd,docapo,dirapo,coddis,telapo,celapo,corapo,codsex,codestc,estapo)
+values(seq_apoderado.NEXTVAL,'Patricia Beatriz','Ramírez','Castro',to_date('1984-09-15','yyyy-MM-dd'),1,'85746932','Calle Bartolomé Herrera 321 - Lince',7,'2654789','978523641','patricia.ramirez@email.com',2,2,1);
+
+insert into apoderado(codapo,nomapo,apepapo,apemapo,fecapo,codtipd,docapo,dirapo,coddis,telapo,celapo,corapo,codsex,codestc,estapo)
+values(seq_apoderado.NEXTVAL,'Silvia Mariana','Torres','López',to_date('1983-02-28','yyyy-MM-dd'),1,'97531864','Av. Grau 678 - La Victoria',1,'3241569','974125836','silvia.torres@email.com',2,2,1);
+
+insert into apoderado(codapo,nomapo,apepapo,apemapo,fecapo,codtipd,docapo,dirapo,coddis,telapo,celapo,corapo,codsex,codestc,estapo)
+values(seq_apoderado.NEXTVAL,'Héctor Manuel','Paredes','Salazar',to_date('1979-08-19','yyyy-MM-dd'),1,'86429753','Jr. Cajamarca 432 - Barranco',1,'2478963','991452387','hector.paredes@email.com',1,1,1);
+
+insert into apoderado(codapo,nomapo,apepapo,apemapo,fecapo,codtipd,docapo,dirapo,coddis,telapo,celapo,corapo,codsex,codestc,estapo)
+values(seq_apoderado.NEXTVAL,'Gloria Estefanía','Huamán','Quispe',to_date('1986-06-22','yyyy-MM-dd'),1,'13254768','Av. Tomás Marsano 890 - Surquillo',11,'2748963','987456321','gloria.huaman@email.com',2,2,1);
+
+
+--alumno
+insert into alumno(codalu,nomalu,apepalu,apemalu,fecalu,codtipd,docalu,diralu,coddis,telalu,celalu,coralu,codsex,codapo,estalu)
+values(seq_alumno.NEXTVAL,'Luis Fernando','Balarezo','Poclin',to_date('2000-02-14','yyyy-MM-dd'),1,'62492624','Av.San MIguel 302',1,'5269486','907623464','fernandobal@gmail.com',1,1,1);
+
+insert into alumno(codalu,nomalu,apepalu,apemalu,fecalu,codtipd,docalu,diralu,coddis,telalu,celalu,coralu,codsex,codapo,estalu)
+values(seq_alumno.NEXTVAL,'Alessandro Joaquin','Reategui','Loyola',to_date('2005-03-13','yyyy-MM-dd'),1,'71325494','Av.San Jose 404',3,'9523449','915698929','fernandobal@gmail.com',1,1,1);
+
+insert into alumno(codalu,nomalu,apepalu,apemalu,fecalu,codtipd,docalu,diralu,coddis,telalu,celalu,coralu,codsex,codapo,estalu)
+values(seq_alumno.NEXTVAL,'Camila Andrea','Gutiérrez','Quispe',to_date('2001-05-20','yyyy-MM-dd'),1,'72456891','Jr. Huaraz 456 - Jesús María',1,'4215689','987456123','camila.gutierrez@email.com',2,1,1);
+
+insert into alumno(codalu,nomalu,apepalu,apemalu,fecalu,codtipd,docalu,diralu,coddis,telalu,celalu,coralu,codsex,codapo,estalu)
+values(seq_alumno.NEXTVAL,'Diego Alejandro','Mamani','Condori',to_date('2000-11-03','yyyy-MM-dd'),1,'82467935','Av. La Marina 2450 - San Miguel',3,'2245789','965874123','diego.mamani@email.com',1,1,1);
+
+insert into alumno(codalu,nomalu,apepalu,apemalu,fecalu,codtipd,docalu,diralu,coddis,telalu,celalu,coralu,codsex,codapo,estalu)
+values(seq_alumno.NEXTVAL,'Valeria Sofía','Flores','Torres',to_date('2002-03-15','yyyy-MM-dd'),1,'92468357','Av. Bolívar 789 - Pueblo Libre',9,'2547896','978541236','valeria.flores@email.com',2,1,1);
+
+insert into alumno(codalu,nomalu,apepalu,apemalu,fecalu,codtipd,docalu,diralu,coddis,telalu,celalu,coralu,codsex,codapo,estalu)
+values(seq_alumno.NEXTVAL,'Joaquín Sebastián','Rodríguez','Castro',to_date('2001-08-22','yyyy-MM-dd'),1,'52479863','Calle José Gálvez 325 - Lince',7,'2845796','991452378','joaquin.rodriguez@email.com',1,1,1);
+
+insert into alumno(codalu,nomalu,apepalu,apemalu,fecalu,codtipd,docalu,diralu,coddis,telalu,celalu,coralu,codsex,codapo,estalu)
+values(seq_alumno.NEXTVAL,'Alessandra Lucia','Sánchez','Córdova',to_date('2002-12-10','yyyy-MM-dd'),1,'62479381','Calle Shell 321 - Miraflores',1,'3345789','974563218','alessandra.sanchez@email.com',2,1,1);
+
+insert into alumno(codalu,nomalu,apepalu,apemalu,fecalu,codtipd,docalu,diralu,coddis,telalu,celalu,coralu,codsex,codapo,estalu)
+values(seq_alumno.NEXTVAL,'Gabriel Eduardo','Pérez','Rojas',to_date('2000-07-18','yyyy-MM-dd'),1,'42576839','Av. San Borja Sur 567 - San Borja',1,'6524789','945678321','gabriel.perez@email.com',1,1,1);
+
+insert into alumno(codalu,nomalu,apepalu,apemalu,fecalu,codtipd,docalu,diralu,coddis,telalu,celalu,coralu,codsex,codapo,estalu)
+values(seq_alumno.NEXTVAL,'Mariana Belén','Huaraca','Llanos',to_date('2001-09-25','yyyy-MM-dd'),1,'82635794','Jr. Tacna 678 - Magdalena',9,'6457892','987456321','mariana.huaraca@email.com',2,1,1);
+
+insert into alumno(codalu,nomalu,apepalu,apemalu,fecalu,codtipd,docalu,diralu,coddis,telalu,celalu,coralu,codsex,codapo,estalu)
+values(seq_alumno.NEXTVAL,'Sebastián Alonso','Vásquez','Díaz',to_date('2002-04-30','yyyy-MM-dd'),1,'52439768','Av. Angamos Este 1234 - Surquillo',11,'2045789','963214587','sebastian.vasquez@email.com',1,1,1);
+
+-- docente (10 docentes)
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Juan','Pérez','García',TO_DATE('1980-01-15','YYYY-MM-DD'),1,'20000001','Av. Primavera 100',1,'987650001','987651001','juan.perez@example.com',1,1,2,'Matemáticas',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'María','Torres','Ramírez',TO_DATE('1982-03-20','YYYY-MM-DD'),1,'20000002','Calle Central 200',2,'987650002','987651002','maria.torres@example.com',2,2,3,'Lengua',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Carlos','Flores','Aguilar',TO_DATE('1979-07-10','YYYY-MM-DD'),1,'20000003','Av. Perú 300',1,'987650003','987651003','carlos.flores@example.com',1,1,4,'Historia',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Ana','Ramírez','Soto',TO_DATE('1981-11-05','YYYY-MM-DD'),1,'20000004','Jr. Comercio 400',2,'987650004','987651004','ana.ramirez@example.com',2,2,5,'Geografía',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Luis','Quispe','Fernández',TO_DATE('1978-05-22','YYYY-MM-DD'),1,'20000005','Av. San Martín 500',1,'987650005','987651005','luis.quispe@example.com',1,1,1,'Física',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Carmen','Aguilar','Huamán',TO_DATE('1983-01-18','YYYY-MM-DD'),1,'20000006','Av. América 600',2,'987650006','987651006','carmen.aguilar@example.com',2,2,2,'Química',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'José','Silva','Morales',TO_DATE('1977-11-30','YYYY-MM-DD'),1,'20000007','Jr. Los Pinos 700',1,'987650007','987651007','jose.silva@example.com',1,1,3,'Biología',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Laura','Campos','Villanueva',TO_DATE('1984-04-14','YYYY-MM-DD'),1,'20000008','Av. Colonial 800',2,'987650008','987651008','laura.campos@example.com',2,2,4,'Arte',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Miguel','Palacios','Gutiérrez',TO_DATE('1979-08-09','YYYY-MM-DD'),1,'20000009','Av. Los Cedros 900',1,'987650009','987651009','miguel.palacios@example.com',1,1,5,'Música',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Patricia','Montoya','Sánchez',TO_DATE('1982-02-27','YYYY-MM-DD'),1,'20000010','Jr. Los Robles 1000',2,'987650010','987651010','patricia.montoya@example.com',2,2,1,'Educación Física',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Ricardo','Gutiérrez','Morales',TO_DATE('1978-02-27','YYYY-MM-DD'),1,'20000011','Av. Los �?lamos 1100',1,'987650011','987651011','ricardo.gutierrez@example.com',1,1,2,'Matemáticas',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Paola','Sánchez','Reyes',TO_DATE('1981-06-15','YYYY-MM-DD'),1,'20000012','Calle Los Laureles 1200',2,'987650012','987651012','paola.sanchez@example.com',2,2,3,'Lengua',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Guillermo','Ramírez','Torres',TO_DATE('1977-09-09','YYYY-MM-DD'),1,'20000013','Av. Los Olivos 1300',1,'987650013','987651013','guillermo.ramirez@example.com',1,1,4,'Historia',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Natalia','Torres','Aguilar',TO_DATE('1980-11-21','YYYY-MM-DD'),1,'20000014','Jr. Los Jazmines 1400',2,'987650014','987651014','natalia.torres@example.com',2,2,5,'Geografía',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Eduardo','Aguilar','Soto',TO_DATE('1979-01-05','YYYY-MM-DD'),1,'20000015','Av. Los Rosales 1500',1,'987650015','987651015','eduardo.aguilar@example.com',1,1,1,'Física',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Lorena','Soto','Fernández',TO_DATE('1983-04-28','YYYY-MM-DD'),1,'20000016','Calle Los Sauces 1600',2,'987650016','987651016','lorena.soto@example.com',2,2,2,'Química',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Manuel','Fernández','Rojas',TO_DATE('1978-07-19','YYYY-MM-DD'),1,'20000017','Av. Los Pinos 1700',1,'987650017','987651017','manuel.fernandez@example.com',1,1,3,'Biología',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Paty','Rojas','Salazar',TO_DATE('1982-09-30','YYYY-MM-DD'),1,'20000018','Jr. Los Tulipanes 1800',2,'987650018','987651018','paty.rojas@example.com',2,2,4,'Arte',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Hernán','Morales','Soto',TO_DATE('1979-03-03','YYYY-MM-DD'),1,'20000019','Av. Los Cedros 1900',1,'987650019','987651019','hernan.morales@example.com',1,1,5,'Música',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Rocío','Reyes','Villanueva',TO_DATE('1981-05-25','YYYY-MM-DD'),1,'20000020','Calle Las Gardenias 2000',2,'987650020','987651020','rocio.reyes@example.com',2,2,1,'Educación Física',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Iván','Paredes','Montoya',TO_DATE('1977-08-08','YYYY-MM-DD'),1,'20000021','Av. Los Laureles 2100',1,'987650021','987651021','ivan.paredes@example.com',1,1,2,'Matemáticas',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Patricia','Ríos','Sánchez',TO_DATE('1980-10-12','YYYY-MM-DD'),1,'20000022','Jr. Los Jazmines 2200',2,'987650022','987651022','patricia.rios@example.com',2,2,3,'Lengua',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Felipe','Soto','Aguilar',TO_DATE('1979-12-01','YYYY-MM-DD'),1,'20000023','Av. Los Rosales 2300',1,'987650023','987651023','felipe.soto@example.com',1,1,4,'Historia',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Clara','Aguilar','Ramírez',TO_DATE('1981-02-18','YYYY-MM-DD'),1,'20000024','Calle Los Olivos 2400',2,'987650024','987651024','clara.aguilar@example.com',2,2,5,'Geografía',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Tomás','Campos','Fernández',TO_DATE('1978-04-07','YYYY-MM-DD'),1,'20000025','Av. Los Pinos 2500',1,'987650025','987651025','tomas.campos@example.com',1,1,1,'Física',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Andrea','Silva','Quispe',TO_DATE('1982-06-29','YYYY-MM-DD'),1,'20000026','Jr. Los Tulipanes 2600',2,'987650026','987651026','andrea.silva@example.com',2,2,2,'Química',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Mauricio','Delgado','Huamán',TO_DATE('1977-09-14','YYYY-MM-DD'),1,'20000027','Av. Los Sauces 2700',1,'987650027','987651027','mauricio.delgado@example.com',1,1,3,'Biología',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Elisa','Villanueva','Torres',TO_DATE('1981-11-05','YYYY-MM-DD'),1,'20000028','Calle Los Nogales 2800',2,'987650028','987651028','elisa.villanueva@example.com',2,2,4,'Arte',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Hugo','Mendoza','Salas',TO_DATE('1979-10-30','YYYY-MM-DD'),1,'20000029','Av. Universitaria 2900',1,'987650029','987651029','hugo.mendoza@example.com',1,1,5,'Música',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Sofía','Ramírez','Huamán',TO_DATE('1982-12-12','YYYY-MM-DD'),1,'20000030','Jr. Comercio 3000',2,'987650030','987651030','sofia.ramirez@example.com',2,2,1,'Educación Física',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Andrés','Flores','Aguilar',TO_DATE('1977-02-05','YYYY-MM-DD'),1,'20000031','Av. Perú 3100',1,'987650031','987651031','andres.flores@example.com',1,1,2,'Matemáticas',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Lucía','Torres','Ramírez',TO_DATE('1981-04-18','YYYY-MM-DD'),1,'20000032','Calle Central 3200',2,'987650032','987651032','lucia.torres@example.com',2,2,3,'Lengua',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Pedro','García','López',TO_DATE('1979-06-25','YYYY-MM-DD'),1,'20000033','Av. Primavera 3300',1,'987650033','987651033','pedro.garcia@example.com',1,1,4,'Historia',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Verónica','Aguilar','Soto',TO_DATE('1982-08-09','YYYY-MM-DD'),1,'20000034','Calle Comercio 3400',2,'987650034','987651034','veronica.aguilar@example.com',2,2,5,'Geografía',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Diego','Quispe','Flores',TO_DATE('1978-10-01','YYYY-MM-DD'),1,'20000035','Av. San Martín 3500',1,'987650035','987651035','diego.quispe@example.com',1,1,1,'Física',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Carmen','Delgado','Ríos',TO_DATE('1981-12-20','YYYY-MM-DD'),1,'20000036','Av. América 3600',2,'987650036','987651036','carmen.delgado@example.com',2,2,2,'Química',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Jorge','Silva','Morales',TO_DATE('1977-02-14','YYYY-MM-DD'),1,'20000037','Jr. Los Pinos 3700',1,'987650037','987651037','jorge.silva@example.com',1,1,3,'Biología',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Teresa','Campos','Villanueva',TO_DATE('1981-05-30','YYYY-MM-DD'),1,'20000038','Av. Colonial 3800',2,'987650038','987651038','teresa.campos@example.com',2,2,4,'Arte',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Óscar','Palacios','Gutiérrez',TO_DATE('1979-10-11','YYYY-MM-DD'),1,'20000039','Av. Los Cedros 3900',1,'987650039','987651039','oscar.palacios@example.com',1,1,5,'Música',1);
+INSERT INTO Docente VALUES (seq_docente.NEXTVAL,'Silvia','Montoya','Sánchez',TO_DATE('1982-12-03','YYYY-MM-DD'),1,'20000040','Jr. Los Robles 4000',2,'987650040','987651040','silvia.montoya@example.com',2,2,1,'Educación Física',1);
+
+
+--empleados
+insert into empleado(codemp,nomemp,apepemp,apememp,fecemp,codtipd,docemp,diremp,coddis,telemp,celemp,coremp,codsex,codestc,codgradi,nomesp,codcar,estemp)
+values(seq_empleado.NEXTVAL,'Carlos Enrique','García','Pérez',to_date('1985-06-15','yyyy-MM-dd'),1,'41526378','Av. Paseo de la República 3456 - San Isidro',1,'4215689','987452136','carlos.garcia@empresa.com',1,1,4,'Administración de Empresas',1,1);
+
+insert into empleado(codemp,nomemp,apepemp,apememp,fecemp,codtipd,docemp,diremp,coddis,telemp,celemp,coremp,codsex,codestc,codgradi,nomesp,codcar,estemp)
+values(seq_empleado.NEXTVAL,'Ana María','Rodríguez','Castro',to_date('1982-03-22','yyyy-MM-dd'),1,'52417963','Av. La Marina 2350 - San Miguel',3,'2635874','965214783','ana.rodriguez@empresa.com',2,1,5,'Dirección de Empresas',2,1);
+
+insert into empleado(codemp,nomemp,apepemp,apememp,fecemp,codtipd,docemp,diremp,coddis,telemp,celemp,coremp,codsex,codestc,codgradi,nomesp,codcar,estemp)
+values(seq_empleado.NEXTVAL,'Jorge Luis','Sánchez','Torres',to_date('1978-11-10','yyyy-MM-dd'),1,'63524187','Calle Las Palmeras 450 - Miraflores',1,'4625871','974125836','jorge.sanchez@empresa.com',1,1,5,'Gestión Empresarial',2,1);
+
+insert into empleado(codemp,nomemp,apepemp,apememp,fecemp,codtipd,docemp,diremp,coddis,telemp,celemp,coremp,codsex,codestc,codgradi,nomesp,codcar,estemp)
+values(seq_empleado.NEXTVAL,'Patricia Sofía','Flores','Mendoza',to_date('1991-05-05','yyyy-MM-dd'),1,'74635219','Av. Brasil 1245 - Jesús María',1,'4236789','991452387','patricia.flores@empresa.com',2,2,3,'Contabilidad',3,1);
+
+insert into empleado(codemp,nomemp,apepemp,apememp,fecemp,codtipd,docemp,diremp,coddis,telemp,celemp,coremp,codsex,codestc,codgradi,nomesp,codcar,estemp)
+values(seq_empleado.NEXTVAL,'Fernando Andrés','Gutiérrez','Quispe',to_date('1992-12-18','yyyy-MM-dd'),1,'85746931','Av. Sucre 856 - Pueblo Libre',9,'2654789','978523641','fernando.gutierrez@empresa.com',1,2,3,'Administración',3,1);
+
+insert into empleado(codemp,nomemp,apepemp,apememp,fecemp,codtipd,docemp,diremp,coddis,telemp,celemp,coremp,codsex,codestc,codgradi,nomesp,codcar,estemp)
+values(seq_empleado.NEXTVAL,'María Elena','Vásquez','Díaz',to_date('1990-09-20','yyyy-MM-dd'),1,'96857421','Calle Los Pinos 234 - Lince',7,'4478965','996325874','maria.vasquez@empresa.com',2,1,4,'Secretariado Ejecutivo',4,1);
+
+insert into empleado(codemp,nomemp,apepemp,apememp,fecemp,codtipd,docemp,diremp,coddis,telemp,celemp,coremp,codsex,codestc,codgradi,nomesp,codcar,estemp)
+values(seq_empleado.NEXTVAL,'Ricardo Javier','Morales','Castro',to_date('1989-08-25','yyyy-MM-dd'),1,'13254769','Av. Alfredo Benavides 3456 - Surco',2,'2748963','987456321','ricardo.morales@empresa.com',1,1,4,'Asistencia de Gerencia',4,1);
+
+insert into empleado(codemp,nomemp,apepemp,apememp,fecemp,codtipd,docemp,diremp,coddis,telemp,celemp,coremp,codsex,codestc,codgradi,nomesp,codcar,estemp)
+values(seq_empleado.NEXTVAL,'Verónica Beatriz','Cáceres','Rojas',to_date('1993-02-14','yyyy-MM-dd'),1,'24681359','Av. San Borja Sur 678 - San Borja',1,'4365879','963258741','veronica.caceres@empresa.com',2,2,2,'Auxiliar Administrativo',5,1);
+
+insert into empleado(codemp,nomemp,apepemp,apememp,fecemp,codtipd,docemp,diremp,coddis,telemp,celemp,coremp,codsex,codestc,codgradi,nomesp,codcar,estemp)
+values(seq_empleado.NEXTVAL,'Luis Alberto','Ramos','Torres',to_date('1994-07-30','yyyy-MM-dd'),1,'97531865','Jr. Tacna 567 - Magdalena',9,'3241569','974125836','luis.ramos@empresa.com',1,2,2,'Auxiliar de Oficina',5,1);
+
+insert into empleado(codemp,nomemp,apepemp,apememp,fecemp,codtipd,docemp,diremp,coddis,telemp,celemp,coremp,codsex,codestc,codgradi,nomesp,codcar,estemp)
+values(seq_empleado.NEXTVAL,'Diana Carolina','Paredes','Salazar',to_date('1986-10-08','yyyy-MM-dd'),1,'86429751','Av. La Molina 1234 - La Molina',5,'2478963','991452387','diana.paredes@empresa.com',2,1,4,'Logística y Almacenes',6,1);
+
+-- proceso
+-- Matrícula
+INSERT INTO matricula VALUES (seq_matricula.NEXTVAL,TO_DATE('2026-03-01','YYYY-MM-DD'),1,1,4,1,1,'REALIZADA',1);
+-- Detalle
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,1,1,1,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,1,2,2,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,1,3,3,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,1,6,4,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,1,12,5,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,1,13,6,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,1,21,7,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,1,27,8,1);
+
+-- Matrícula
+INSERT INTO matricula VALUES (seq_matricula.NEXTVAL,TO_DATE('2026-03-01','YYYY-MM-DD'),2,2,4,2,1,'REALIZADA',1);
+-- Detalle
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,2,1,9,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,2,2,10,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,2,3,11,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,2,6,12,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,2,12,13,1);
+INSERT INTO DetalleMatricula VALUES (seq_detallematricula.NEXTVAL,2,13,14,1);
+INSERT INTO DetalleMatricula VALUES (seq_detallematricula.NEXTVAL,2,21,15,1);
+INSERT INTO DetalleMatricula VALUES (seq_detallematricula.NEXTVAL,2,27,16,1);
+
+-- Matrícula
+INSERT INTO matricula VALUES (seq_matricula.NEXTVAL,TO_DATE('2026-03-01','YYYY-MM-DD'),1,3,5,1,2,'REALIZADA',1);
+-- Detalle
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,3,1,17,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,3,2,18,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,3,3,19,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,3,6,20,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,3,7,21,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,3,12,22,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,3,13,23,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,3,21,24,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,3,27,25,1);
+
+-- Matrícula
+INSERT INTO matricula VALUES (seq_matricula.NEXTVAL,TO_DATE('2026-03-01','YYYY-MM-DD'),3,4,5,2,2,'REALIZADA',1);
+-- Detalle
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,4,1,26,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,4,2,27,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,4,3,28,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,4,6,29,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,4,7,30,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,4,12,31,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,4,13,32,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,4,21,33,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,4,27,34,1);
+
+-- Matricula
+INSERT INTO matricula VALUES (seq_matricula.NEXTVAL,TO_DATE('2026-03-01','YYYY-MM-DD'),4,5,6,1,1,'REALIZADA',1);
+-- Detalle
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,5,1,35,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,5,2,36,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,5,3,37,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,5,6,38,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,5,7,39,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,5,12,40,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,5,13,1,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,5,21,2,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,5,27,3,1);
+INSERT INTO detallematricula VALUES (seq_detallematricula.NEXTVAL,5,28,4,1);
+
+--15 ejemplos de matricula y detalle 
+
+
+
+
+
+
+
+
+
