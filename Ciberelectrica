@@ -1,0 +1,630 @@
+--eliminacion de secuencias
+BEGIN
+--Tipodedocumento
+begin
+    execute immediate 'drop sequence seq_tipodocumento ';
+    exception when others then
+    if sqlcode !=-2289 then 
+        raise;
+    end if;
+end;
+
+--distrito
+begin
+execute immediate 'drop sequence seq_distrito ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--sexo
+begin
+execute immediate 'drop sequence seq_sexo ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--estado civil
+begin
+execute immediate 'drop sequence seq_estadocivil ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--grado de instruccion
+begin
+execute immediate 'drop sequence seq_gradoinstruccion ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--nivel
+begin
+execute immediate 'drop sequence seq_nivel ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--area
+begin
+execute immediate 'drop sequence seq_area ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--cargo
+begin
+execute immediate 'drop sequence seq_cargo ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--grado
+begin
+execute immediate 'drop sequence seq_grado ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--seccion
+begin
+execute immediate 'drop sequence seq_seccion ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--turno
+begin
+execute immediate 'drop sequence seq_turno ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--curso
+begin
+execute immediate 'drop sequence seq_curso ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--empleado
+begin
+execute immediate 'drop sequence seq_empleado ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--docente
+begin
+execute immediate 'drop sequence seq_docente ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--apoderado
+begin
+execute immediate 'drop sequence seq_apoderado ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--alumno
+begin
+execute immediate 'drop sequence seq_alumno ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+
+--Matricula
+begin
+execute immediate 'drop sequence seq_matricula ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--detallematricula
+begin
+execute immediate 'drop sequence seq_detallematricula ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+
+--Documento entregable
+begin
+execute immediate 'drop sequence seq_documentoentregable ';
+exception when others then
+if sqlcode !=-2289 then raise;
+end if;
+end;
+    
+--lista de espera    
+begin
+execute immediate 'drop sequence seq_listaespera';
+        exception when others then
+        if sqlcode !=-2289 then raise;
+        end if;
+    end;
+    
+end;
+/
+
+--Eliminacion de tablas
+BEGIN
+--Tipodedocumento
+begin
+    execute immediate 'drop table tipodocumento cascade constraints ';
+    exception when others then
+    if sqlcode !=-942 then 
+        raise;
+    end if;
+end;
+
+--distrito
+begin
+execute immediate 'drop table distrito cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--sexo
+begin
+execute immediate 'drop table sexo cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--estado civil
+begin
+execute immediate 'drop table estadocivil cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--grado de instruccion
+begin
+execute immediate 'drop table gradoinstruccion cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--nivel
+begin
+execute immediate 'drop table nivel cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--area
+begin
+execute immediate 'drop table area cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--cargo
+begin
+execute immediate 'drop table cargo cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--grado
+begin
+execute immediate 'drop table grado cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--seccion
+begin
+execute immediate 'drop table seccion cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--turno
+begin
+execute immediate 'drop table turno cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--curso
+begin
+execute immediate 'drop table curso cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--empleado
+begin
+execute immediate 'drop table empleado cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--docente
+begin
+execute immediate 'drop table docente cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--apoderado
+begin
+execute immediate 'drop table apoderado cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--alumno
+begin
+execute immediate 'drop table alumno cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--Matricula
+begin
+execute immediate 'drop table matricula cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--detalle matricula
+begin
+execute immediate 'drop table detallematricula cascade constraints ';
+exception when others then
+if sqlcode !=-942 then raise;
+end if;
+end;
+
+--Documento entregable
+begin
+execute immediate 'drop table documentoentregable cascade constraints ';
+        exception when others then
+        if sqlcode !=-942 then raise;
+        end if;
+    end;
+    
+--Lista de Espera 
+Begin
+execute immediate 'drop table listaespera cascade constraints ';
+        exception when others then
+        if sqlcode !=-942 then raise;
+        end if;
+    end;
+end;
+/
+
+--creacion de secuencias 
+Create sequence seq_tipodocumento start with 1 increment by 1 nocache nocycle;
+Create sequence seq_distrito start with 1 increment by 1 nocache nocycle;
+Create sequence seq_sexo start with 1 increment by 1 nocache nocycle;
+Create sequence seq_estadocivil start with 1 increment by 1 nocache nocycle;
+Create sequence seq_gradoinstruccion start with 1 increment by 1 nocache nocycle;
+Create sequence seq_nivel start with 1 increment by 1 nocache nocycle;
+Create sequence seq_area start with 1 increment by 1 nocache nocycle;
+Create sequence seq_cargo start with 1 increment by 1 nocache nocycle;
+Create sequence seq_curso start with 1 increment by 1 nocache nocycle;
+Create sequence seq_grado start with 1 increment by 1 nocache nocycle;
+Create sequence seq_seccion start with 1 increment by 1 nocache nocycle;
+Create sequence seq_turno start with 1 increment by 1 nocache nocycle;
+Create sequence seq_apoderado start with 1 increment by 1 nocache nocycle;
+Create sequence seq_alumno start with 1 increment by 1 nocache nocycle;
+Create sequence seq_docente start with 1 increment by 1 nocache nocycle;
+Create sequence seq_empleado start with 1 increment by 1 nocache nocycle;
+Create sequence seq_matricula start with 1 increment by 1 nocache nocycle;
+Create sequence seq_detallematricula start with 1 increment by 1 nocache nocycle;
+Create sequence seq_documentoentregable start with 1 increment by 1 nocache nocycle;
+Create sequence seq_listaespera start with 1 increment by 1 nocache nocycle;
+/
+
+--TipoDocumento
+create table tipodocumento(
+codtipd number primary key,
+nomtipd varchar2(30) not null unique,
+esttipd number(1) default 1 check(esttipd in(0,1))not null
+);
+
+--Distrito
+create table distrito(
+coddis number primary key,
+nomdis varchar2(40) not null unique,
+estdis number(1) default 1 check(estdis in(0,1))not null
+);
+
+--Sexo
+create table sexo(
+codsex number primary key,
+nomsex varchar2(30) not null unique,
+estsex number(1) default 1 check(estsex in(0,1))not null
+);
+
+--Estadocivil
+create table estadocivil(
+codestc number primary key,
+nomestc varchar2(30) not null unique,
+estestc number(1) default 1 check(estestc in(0,1))not null
+);
+
+--Grado instruccion
+create table gradoinstruccion(
+codgradi number primary key,
+nomgradi varchar2(30) not null unique,
+estgradi number(1) default 1 check(estgradi in(0,1)) not null
+);
+
+--nivel
+create table nivel(
+codniv number primary key,
+nomniv varchar2(30) not null unique,
+preniv number(8,2) not null,
+estniv number (1) default 1 not null check(estniv in (0,1))
+);
+
+--grado
+create table grado(
+codgra Number primary key,
+nomgra varchar2(20) not null,
+codniv number not null,
+estgra number(1) default 1 check (estgra in(0,1)) not null,
+foreign key (codniv) references nivel (codniv)
+);
+
+--seccion
+create table seccion(
+codsec Number primary key,
+nomsec varchar2(30) not null,
+codgra number not null,
+estsec number(1) default 1 check (estsec in(0,1)),
+Foreign key(codgra) References grado(codgra)
+);
+
+--turno
+create table turno(
+codtur Number primary key,
+nomtur varchar2(20) not null unique,
+esttur number(1) default 1 check (esttur in(0,1)) not null
+);
+
+--area
+CREATE TABLE area (
+    codarea NUMBER PRIMARY KEY,
+    nomarea VARCHAR2(50) NOT NULL UNIQUE,
+    estarea NUMBER(1) DEFAULT 1 NOT NULL CHECK (estarea IN (0,1))
+);
+
+-- Cargo
+CREATE TABLE cargo (
+    codcar NUMBER PRIMARY KEY,
+    nomcar VARCHAR2(40) NOT NULL,
+    estcar NUMBER(1) NOT NULL
+);
+
+--curso
+CREATE TABLE curso (
+codcur NUMBER PRIMARY KEY,
+nomcur VARCHAR2(50) NOT NULL UNIQUE,
+codarea NUMBER NOT NULL,
+estcur NUMBER(1) DEFAULT 1 NOT NULL CHECK (estcur IN (0,1)),
+FOREIGN KEY (codarea) REFERENCES area(codarea)
+);
+
+--Apoderado
+create table apoderado(
+codapo number primary key,
+nomapo varchar2(40) not null,
+apepapo varchar2(40) not null,
+apemapo varchar2(40) not null,
+fecapo date not null,
+codtipd number,
+docapo varchar2(20) not null unique,
+dirapo varchar2(200) not null,
+coddis number not null,
+telapo varchar(15) null,
+celapo varchar(15) not null,
+corapo varchar(60) not null,
+codsex number not null,
+codestc number not null,
+estapo number(1) default 1 check(estapo in(0,1))not null,
+foreign key(codtipd) references tipodocumento(codtipd),
+foreign key(coddis) references distrito(coddis),
+foreign key(codsex) references sexo(codsex),
+foreign key(codestc) references estadocivil(codestc)
+);
+
+--Alumno
+create table alumno(
+codalu number primary key,
+nomalu varchar2(40) not null,
+apepalu varchar2(30) not null,
+apemalu varchar2(30) not null,
+fecalu date not null,
+codtipd number,
+docalu varchar2(20) not null,
+diralu varchar2(200) not null,
+coddis number not null,
+telalu varchar2(15) null,
+celalu varchar2(15) not null,
+coralu varchar2(60) not null,
+codsex number not null,
+codapo number not null,
+estalu number(1) default 1 check(EstAlu in(0,1))not null,
+FOREIGN KEY (codtipd) REFERENCES tipodocumento(codtipd),
+FOREIGN KEY (coddis) REFERENCES distrito(coddis),
+FOREIGN KEY (codsex) REFERENCES sexo(codsex),
+FOREIGN KEY (codapo) REFERENCES apoderado(codapo)
+);
+
+-- Docente
+CREATE TABLE docente (
+    coddoc NUMBER PRIMARY KEY,
+    nomdoc VARCHAR2(40) NOT NULL,
+    apepdoc VARCHAR2(30) NOT NULL,
+    apemdoc VARCHAR2(30) NOT NULL,
+    fecdoc DATE NOT NULL,
+    codtipd NUMBER NOT NULL,
+    docdoc VARCHAR2(20) NOT NULL UNIQUE,
+    dirdoc VARCHAR2(200) NOT NULL,
+    coddis NUMBER NOT NULL,
+    teldoc VARCHAR2(15),
+    celdoc VARCHAR2(15) NOT NULL,
+    cordoc VARCHAR2(60),
+    codsex NUMBER NOT NULL,
+    codestc NUMBER NOT NULL,
+    codgradi NUMBER NOT NULL,
+    nomesp VARCHAR2(60),
+    estdoc NUMBER(1) DEFAULT 1 NOT NULL CHECK (estdoc IN (0,1)),
+    FOREIGN KEY (codtipd) REFERENCES tipodocumento(codtipd),
+    FOREIGN KEY (coddis) REFERENCES distrito(coddis),
+    FOREIGN KEY (codsex) REFERENCES sexo(codsex),
+    FOREIGN KEY (codestc) REFERENCES estadocivil(codestc),
+    FOREIGN KEY (codgradi) REFERENCES gradoinstruccion(codgradi)
+);
+
+-- Empleado
+CREATE TABLE empleado (
+    codemp NUMBER PRIMARY KEY,
+    nomemp VARCHAR2(40) NOT NULL,
+    apepemp VARCHAR2(40) NOT NULL,
+    apememp VARCHAR2(40) NOT NULL,
+    fecemp DATE NOT NULL,
+    codtipd NUMBER NOT NULL,
+    docemp VARCHAR2(20) NOT NULL UNIQUE,
+    diremp VARCHAR2(200),
+    coddis NUMBER NOT NULL,
+    telemp VARCHAR2(7) NULL,
+    celemp VARCHAR2(9) NOT NULL,
+    coremp VARCHAR2(40) NOT NULL,
+    codsex NUMBER NOT NULL,
+    codestc NUMBER NOT NULL,
+    codgradi NUMBER NOT NULL,
+    nomesp VARCHAR2(60),
+    codcar NUMBER NOT NULL,
+    estemp NUMBER(1) NOT NULL,
+    FOREIGN KEY (codtipd) REFERENCES tipodocumento(codtipd),
+    FOREIGN KEY (coddis) REFERENCES distrito(coddis),
+    FOREIGN KEY (codsex) REFERENCES sexo(codsex),
+    FOREIGN KEY (codestc) REFERENCES estadocivil(codestc),
+    FOREIGN KEY (codgradi) REFERENCES gradoinstruccion(codgradi),
+    FOREIGN KEY (codcar) REFERENCES cargo(codcar)
+);
+
+--Matricula
+create table matricula(
+nummat number primary key,
+fecmat date not null,
+codemp number not null,
+codalu number not null,
+codgra number not null,
+codsec number not null,
+codtur number not null,
+situacion VARCHAR2(20) DEFAULT 'REALIZADA' NOT NULL CHECK (situacion IN ('REALIZADA','EN_ESPERA','ANULADA')),
+estmat number(1) default 1 check(estmat in(0,1))not null,
+foreign key(codemp) references empleado(codemp),
+foreign key(codalu) references alumno(codalu),
+foreign key(codgra) references grado(codgra),
+foreign key(codsec) references seccion(codsec),
+foreign key(codtur) references turno(codtur)
+);
+
+-- DetalleMatricula
+CREATE TABLE detallematricula (
+    coddet NUMBER PRIMARY KEY,
+    nummat NUMBER NOT NULL,   
+    codcur NUMBER NOT NULL, 
+    coddoc NUMBER NOT NULL,  
+    estdet NUMBER(1) DEFAULT 1 NOT NULL CHECK (estdet IN (0,1)),
+    FOREIGN KEY (nummat) REFERENCES matricula(nummat),
+    FOREIGN KEY (codcur) REFERENCES curso(codcur),
+    FOREIGN KEY (coddoc) REFERENCES docente(coddoc)
+);
+
+
+--DocumentoEntregable
+create table documentoentregable(
+coddoce number primary key,
+partida_nacimiento varchar2(1) not null,
+documento_alumno varchar2(1) not null,
+documento_apoderado varchar2(1) not null,
+certificado_estudio varchar2(1) not null,
+constancia_noadeudo varchar2(1) not null,
+recibo_servicio varchar2(1) not null,
+autorizacion varchar2(1) not null,
+nummat number not null,
+estdocent number default 1 check(estdocent in(0,1))not null,
+FOREIGN KEY (nummat) REFERENCES matricula(nummat)
+);
+
+--ListaEspera
+create table listaespera(
+codlist number primary key,
+codalu number not null,
+estlise number(1) default 1 check(estlise in (0,1)) not null,
+foreign key (codalu) references alumno(codalu)
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
